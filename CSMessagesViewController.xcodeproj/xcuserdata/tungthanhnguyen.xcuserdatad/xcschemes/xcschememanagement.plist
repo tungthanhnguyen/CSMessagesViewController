@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CSMessagesViewController.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>CSMessagesViewControllerTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CSMessagesViewControllerUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8F3A94D61DFB03180043A80F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F3C1D691D92480B0039CAB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F4A4F101DFADC9A0026F911</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FBFA6A81DF86147001786B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FF3109F1DFBBEC800275F62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FF310AE1DFBBF4200275F62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

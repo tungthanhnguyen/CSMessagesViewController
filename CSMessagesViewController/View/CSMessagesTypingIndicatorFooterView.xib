@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CSMessagesTypingIndicatorFooterView" id="U6b-Vx-4bR" customClass="CSMessagesTypingIndicatorFooterView" customModule="CSMessagesViewController" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="46"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dlS-qu-b4Q">
+                    <rect key="frame" x="6" y="6" width="64" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="ROP-br-zYj"/>
+                        <constraint firstAttribute="width" constant="64" id="X8B-c1-kMg"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vqy-x0-S8B">
+                    <rect key="frame" x="24" y="6" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="ZTJ-SF-gpR"/>
+                        <constraint firstAttribute="height" constant="34" id="se0-9Z-6gi"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Vqy-x0-S8B" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="24" id="4kI-kF-F7K"/>
+                <constraint firstItem="dlS-qu-b4Q" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="6" id="672-99-qZa"/>
+                <constraint firstItem="Vqy-x0-S8B" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="6" id="Dpk-Gf-hds"/>
+                <constraint firstAttribute="trailing" secondItem="dlS-qu-b4Q" secondAttribute="trailing" constant="250" id="FbI-LC-sPw"/>
+                <constraint firstAttribute="bottom" secondItem="Vqy-x0-S8B" secondAttribute="bottom" constant="6" id="T7M-gG-bI8"/>
+                <constraint firstItem="dlS-qu-b4Q" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="6" id="cDj-zB-gKw"/>
+                <constraint firstAttribute="bottom" secondItem="dlS-qu-b4Q" secondAttribute="bottom" constant="6" id="jxN-ML-H8g"/>
+                <constraint firstAttribute="trailing" secondItem="Vqy-x0-S8B" secondAttribute="trailing" constant="262" id="xe3-Vc-2Wg"/>
+            </constraints>
+            <connections>
+                <outlet property="bubbleImageView" destination="dlS-qu-b4Q" id="8a7-Z0-G3I"/>
+                <outlet property="bubbleImageViewLeftHorizontalConstraint" destination="cDj-zB-gKw" id="Zkv-eh-ufA"/>
+                <outlet property="bubbleImageViewRightHorizontalConstraint" destination="FbI-LC-sPw" id="gL2-aN-4Ma"/>
+                <outlet property="typingIndicatorImageView" destination="Vqy-x0-S8B" id="Nkw-bq-5dl"/>
+                <outlet property="typingIndicatorImageViewLeftHorizontalConstraint" destination="4kI-kF-F7K" id="2hb-xe-5vX"/>
+                <outlet property="typingIndicatorImageViewRightHorizontalConstraint" destination="xe3-Vc-2Wg" id="e61-B6-VYg"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>

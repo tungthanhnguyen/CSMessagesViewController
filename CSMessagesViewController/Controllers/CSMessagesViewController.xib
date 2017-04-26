@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CSMessagesViewController" customModule="CSMessagesViewController" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="979-fR-XCm" id="85U-xm-fIV"/>
+                <outlet property="inputToolbar" destination="G2f-iM-ASR" id="cOZ-W5-8Wm"/>
+                <outlet property="toolbarBottomLayoutGuide" destination="IhH-nk-bZA" id="q0M-a1-cjp"/>
+                <outlet property="toolbarHeightConstraint" destination="1tp-4z-Uln" id="7YI-2v-r5O"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="979-fR-XCm" customClass="CSMessagesCollectionView" customModule="CSMessagesViewController" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewLayout key="collectionViewLayout" id="GdA-uL-XS6" customClass="CSMessagesCollectionViewFlowLayout" customModule="CSMessagesViewController" customModuleProvider="target"/>
+                </collectionView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2f-iM-ASR" customClass="CSMessagesInputToolbar" customModule="CSMessagesViewController" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="1tp-4z-Uln"/>
+                    </constraints>
+                    <items/>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="G2f-iM-ASR" secondAttribute="trailing" id="1fM-MF-EZC"/>
+                <constraint firstAttribute="trailing" secondItem="979-fR-XCm" secondAttribute="trailing" id="CB3-a4-RWd"/>
+                <constraint firstItem="979-fR-XCm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="I3a-js-eNg"/>
+                <constraint firstAttribute="bottom" secondItem="G2f-iM-ASR" secondAttribute="bottom" id="IhH-nk-bZA"/>
+                <constraint firstAttribute="bottom" secondItem="979-fR-XCm" secondAttribute="bottom" id="nLk-KB-2ZB"/>
+                <constraint firstItem="G2f-iM-ASR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ole-bm-2lc"/>
+                <constraint firstItem="979-fR-XCm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="s8d-1q-OVD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+</document>

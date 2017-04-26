@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CSMessagesLoadEarlierHeaderView" id="U6b-Vx-4bR" customClass="CSMessagesLoadEarlierHeaderView" customModule="CSMessagesViewController" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7g5-VY-Lbr">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="loadButtonPressed:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="kWX-wV-gZD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7g5-VY-Lbr" secondAttribute="trailing" id="Cj0-JG-0R8"/>
+                <constraint firstItem="7g5-VY-Lbr" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="frH-xA-XIz"/>
+                <constraint firstItem="7g5-VY-Lbr" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="nuR-6s-GcY"/>
+                <constraint firstAttribute="bottom" secondItem="7g5-VY-Lbr" secondAttribute="bottom" id="sKb-1V-2IS"/>
+            </constraints>
+            <connections>
+                <outlet property="loadButton" destination="7g5-VY-Lbr" id="syV-YG-xRN"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>

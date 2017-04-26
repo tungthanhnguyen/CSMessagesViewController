@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.layoutAttributesForElementsInRect(rect : CGRect) -&gt; NSArray:CSMessagesCollectionViewFlowLayout.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.collectionView(UICollectionView, layout : UICollectionViewLayout, sizeForItemAt : IndexPath) -&gt; CGSize:CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CGSize(width: messageCollectionViewLayout.itemWidth, height: cellHeight)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesToolbarContentViewTests.setUp() -&gt; ():CSMessagesToolbarContentViewTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: object.debugDescription)">
+            </PersistentString>
+            <PersistentString
+               value = "(view.first as! CSMessagesToolbarContentView)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.prepare() -&gt; ():CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visibleItemsIndexPaths.count">
+            </PersistentString>
+            <PersistentString
+               value = "[visibleItems.value(forKey: NSStringFromSelector(#selector(getter: UICollectionViewLayoutAttributes.indexPath)))]">
+            </PersistentString>
+            <PersistentString
+               value = "NSStringFromSelector(#selector(getter: UICollectionViewLayoutAttributes.indexPath))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesToolbarContentView.backgroundColor.setter:CSMessagesToolbarContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "super">
+            </PersistentString>
+            <PersistentString
+               value = "self.leftBarButtonContainerView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.collectionView(UICollectionView, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "messageCollectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesLabel.textInsets.setter:CSMessagesLabel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.priTextInsets">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.awakeFromNib() -&gt; ():CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesKeyboardController.cs_handleKeyboardNotification(Notification, completion : (Bool) -&gt; ()?) -&gt; ():CSMessagesKeyboardController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(animationCurve.rawValue &lt;&lt; 16)">
+            </PersistentString>
+            <PersistentString
+               value = "UIKeyboardAnimationCurveUserInfoKey">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesToolbarContentViewTests.testToolbarContentViewInit() -&gt; ():CSMessagesToolbarContentViewTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.textView is CSMessagesComposerTextView?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesToolbarContentView.rightBarButtonItem.setter:CSMessagesToolbarContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.priRightBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesCollectionViewFlowLayout.layoutAttributesClass.getter:CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CSMessagesCollectionViewLayoutAttributes.self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSSystemSoundPlayer.cs_playMessageReceivedSound() -&gt; ():CSSystemSoundPlayer+CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "SoundConstants.CSMessageReceivedSoundName">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle.main.url(forResource: SoundConstants.CSMessageReceivedSoundName, withExtension: CSSystemSoundTypeAIFF)">
+            </PersistentString>
+            <PersistentString
+               value = "sound.name">
+            </PersistentString>
+            <PersistentString
+               value = "sound.typeIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.viewWillAppear(Bool) -&gt; ():CSDemoViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.cs_addNewlyVisibleBehaviorsFromVisibleItems(visibleItems : NSArray) -&gt; ():CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.visibleIndexPaths">
+            </PersistentString>
+            <PersistentString
+               value = "indexSet.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.messageBubbleSizeForItemAtIndexPath(indexPath : IndexPath) -&gt; CGSize:CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesInputToolbar.observeValue(forKeyPath : String?, of : Any?, change : [NSKeyValueChangeKey : Any]?, context : UnsafeMutableRawPointer?) -&gt; ():CSMessagesInputToolbar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.rightBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.layoutAttributesForItem(at : IndexPath) -&gt; UICollectionViewLayoutAttributes?:CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "super.layoutAttributesForItem(at: 0)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.cs_setCollectionViewInsetsTopValue(top : CGFloat, bottomValue : CGFloat) -&gt; ():CSMessagesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.viewDidLoad() -&gt; ():CSDemoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSTableViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():CSTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewLayoutAttributes.isEqual(Any?) -&gt; Bool:CSMessagesCollectionViewLayoutAttributes.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object as! AnyClass">
+            </PersistentString>
+            <PersistentString
+               value = "(object is CSMessagesCollectionViewLayoutAttributes)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionView.cs_configureCollectionView() -&gt; ():CSMessagesCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CSMessagesCollectionViewCellOutgoing.cellReuseIdentifier()">
+            </PersistentString>
+            <PersistentString
+               value = "CSMessagesCollectionViewCellIncoming.cellReuseIdentifier()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesCollectionViewCellIncoming.nib() -&gt; UINib:CSMessagesCollectionViewCellIncoming.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: CSMessagesCollectionViewCellIncoming.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesInputToolbar.toggleSendButtonEnabled() -&gt; ():CSMessagesInputToolbar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.rightBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesInputToolbar.cs_addObservers() -&gt; ():CSMessagesInputToolbar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.rightBarButtonItem">
+            </PersistentString>
+            <PersistentString
+               value = "#keyPath(self)">
+            </PersistentString>
+            <PersistentString
+               value = "self.contentView.leftBarButtonItem">
+            </PersistentString>
+            <PersistentString
+               value = "NSStringFromSelector(#selector(getter: self.contentView.rightBarButtonItem.state))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.cs_updateView() -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DispatchTime.now()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessage.isEqual(Any?) -&gt; Bool:CSMessage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(to as? CSMessage)">
+            </PersistentString>
+            <PersistentString
+               value = "(to as? CSMessage).isEqual(sender)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionView.collectionViewLayout.getter:CSMessagesCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.priCollectionViewLayout">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesToolbarContentView.nib() -&gt; UINib:CSMessagesToolbarContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: CSMessagesToolbarContentView.self)">
+            </PersistentString>
+            <PersistentString
+               value = "NSStringFromClass(CSMessagesToolbarContentView.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.viewWillAppear(Bool) -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView.collectionViewLayout">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesCollectionViewFlowLayout.invalidationContextClass.getter:CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CSMessagesCollectionViewFlowLayoutInvalidationContext.self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesLoadEarlierHeaderView.nib() -&gt; UINib:CSMessagesLoadEarlierHeaderView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: CSMessagesLoadEarlierHeaderView.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesViewController.instantiateCSMessagesViewControllerHelper&lt;A&gt; () -&gt; A:CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "context">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.finishSendingMessage() -&gt; ():CSMessagesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.collectionView(UICollectionView, numberOfItemsInSection : Int) -&gt; Int:CSDemoViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.itemWidth.getter:CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView!.frame.width">
+            </PersistentString>
+            <PersistentString
+               value = "self.collectionView!.frame.width - self.sectionInset.left - self.sectionInset.right">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.cs_removeNoLongerVisibleBehaviorsFromVisibleItemsIndexPaths(visibleItemsIndexPaths : NSSet) -&gt; ():CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "behaviorsToRemove.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexSet.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.collectionView(CSMessagesCollectionView, messageDataForItemAtIndexPath : IndexPath) -&gt; CSMessageData?:CSDemoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.item">
+            </PersistentString>
+            <PersistentString
+               value = "self.messages[0] as! CSMessageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.receiveMessagePressed(UIBarButtonItem) -&gt; ():CSDemoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.isShowTypingIndicator">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesComposerTextView.font.getter:CSMessagesComposerTextView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.font">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewCell.apply(UICollectionViewLayoutAttributes) -&gt; ():CSMessagesCollectionViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.messageBubbleLeftRightMarginConstraint.constant">
+            </PersistentString>
+            <PersistentString
+               value = "customAttributes.messageBubbleLeftRightMargin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.cs_registerForNotifications(Bool) -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "#selector(self.cs_handleDidChangeStatusBarFrameNotification(_:))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.viewDidLoad() -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: CSMessagesViewController.self)">
+            </PersistentString>
+            <PersistentString
+               value = "self.collectionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesKeyboardController.observeValue(forKeyPath : String?, of : Any?, change : [NSKeyValueChangeKey : Any]?, context : UnsafeMutableRawPointer?) -&gt; ():CSMessagesKeyboardController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CSMessagesKeyboardControllerKeyValueObservingContext">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.scrollToBottomAnimated(Bool) -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "IndexPath(item: items - 1, section: 0)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.setupTestModel() -&gt; ():CSDemoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView.collectionViewLayout">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.cs_configureMessagesViewController() -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.inputToolbar.contentView.textView">
+            </PersistentString>
+            <PersistentString
+               value = "self.collectionView">
+            </PersistentString>
+            <PersistentString
+               value = "self.keyboardController">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "self.collectionView.dataSource">
+            </PersistentString>
+            <PersistentString
+               value = "self.collectionView.panGestureRecognizer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesComposerTextView.attributedText.setter:CSMessagesComposerTextView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "super.attributedText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.messageBubbleSizeForItemAt(IndexPath) -&gt; CGSize:CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIScreen.main.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "self.itemWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.(receiveMessagePressed(UIBarButtonItem) -&gt; ()).(closure #1):CSDemoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.sender">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionView.awakeFromNib() -&gt; ():CSMessagesCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionViewLayout.collectionView as! CSMessagesCollectionView">
+            </PersistentString>
+            <PersistentString
+               value = "self.collectionViewLayout">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewControllerTests.testJSQMessagesViewControllerInit() -&gt; ():CSMessagesViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vc.view">
+            </PersistentString>
+            <PersistentString
+               value = "vc.sender">
+            </PersistentString>
+            <PersistentString
+               value = "vc.collectionView">
+            </PersistentString>
+            <PersistentString
+               value = "vc.inputToolbar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesToolbarContentView.setNeedsDisplay() -&gt; ():CSMessagesToolbarContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.textView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesTypingIndicatorFooterView.footerReuseIdentifier() -&gt; String:CSMessagesTypingIndicatorFooterView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: CSMessagesTypingIndicatorFooterView.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesKeyboardController.keyboardView.setter:CSMessagesKeyboardController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSStringFromSelector(#selector(getter: UIView.frame))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewCell.avatarViewSize.getter:CSMessagesCollectionViewCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static CSMessagesTypingIndicatorFooterView.nib() -&gt; UINib:CSMessagesTypingIndicatorFooterView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: CSMessagesTypingIndicatorFooterView.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.cs_updateCollectionViewInsets() -&gt; ():CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView.frame.height - self.inputToolbar.frame.minY">
+            </PersistentString>
+            <PersistentString
+               value = "self.topContentAdditionalInset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.(cs_addNewlyVisibleBehaviorsFromVisibleItems(visibleItems : NSArray) -&gt; ()).(closure #2):CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.visibleIndexPaths">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static UIImage.cs_bubbleImageFromBundleWithName(String) -&gt; UIImage:UIImage+CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bundle.path(forResource: &quot;camera&quot;, ofType: &quot;png&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.(cs_removeNoLongerVisibleBehaviorsFromVisibleItemsIndexPaths(visibleItemsIndexPaths : NSSet) -&gt; ()).(closure #1):CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visibleItemsIndexPaths.contains(layoutAttributes.indexPath)">
+            </PersistentString>
+            <PersistentString
+               value = "visibleItemsIndexPaths.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Bundle.cs_messagesBundle() -&gt; Bundle:Bundle+CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CSMessagesViewController.self">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle(for: CSMessagesViewController.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSDemoViewController.collectionView(UICollectionView, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:CSDemoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "super.collectionView(collectionView, cellForItemAt: indexPath)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesInputToolbar.awakeFromNib() -&gt; ():CSMessagesInputToolbar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.rightBarButtonItem">
+            </PersistentString>
+            <PersistentString
+               value = "String(describing: CSMessagesToolbarContentView.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesCollectionViewFlowLayout.cs_configureMessageCellLayoutAttributes(layoutAttributes : CSMessagesCollectionViewLayoutAttributes) -&gt; ():CSMessagesCollectionViewFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.init() -&gt; CSMessagesViewController:CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CSMessagesViewController.self">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle(for: CSMessagesViewController.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CSMessagesViewController.init(nibName : String?, bundle : Bundle?) -&gt; CSMessagesViewController:CSMessagesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "inputToolbar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
